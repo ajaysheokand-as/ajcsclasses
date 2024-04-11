@@ -13,11 +13,11 @@ export const Banner = () => {
             <div className="row">
               <div className="col-lg-12">
                 <div className="caption">
-              <h6>Hello Students</h6>
-              <h2>Welcome to <br/> AJCS Classes</h2>
-              <p>This is an edu meeting HTML CSS template provided by <a rel="nofollow" href="https://templatemo.com/page/1" target="_blank">TemplateMo website</a>. This is a Bootstrap v5.1.3 layout. The video background is taken from Pexels website, a group of young people by <a rel="nofollow" href="https://www.pexels.com/@pressmaster" target="_blank">Pressmaster</a>.</p>
+              <h6>Greetings!!</h6>
+              <h2>To all aspiring minds!</h2>
+              <p>Welcome to our online platform, where possibilities are endless and learning is limitless. Let's embark on this educational odyssey together." The digital world is your classroom, and every click is a lesson waiting to be learned. Let's embrace the journey of discovery together.</p>
               <div className="main-button-red">
-                  <div className="scroll-to-section"><a href="#contact">Join Us Now!</a></div>
+                  <div className="scroll-to-section"><a target='_blank' href="https://wa.me/+919896996916?text='Hi, I am interested in free counselling'">Connect For Free Counselling</a></div>
               </div>
           </div>
               </div>
