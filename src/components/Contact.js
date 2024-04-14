@@ -48,7 +48,7 @@ export const Contact = () => {
             <ul>
               <li>
                 <h6>Phone Number</h6>
-                <span>+91 98969-96916<br/>+91 85709-96916</span>
+                <span>+91 98969-96916<br/>+91 70151-02445</span>
               </li>
               <li>
                 <h6>Email Address</h6>
@@ -56,11 +56,11 @@ export const Contact = () => {
               </li>
               <li>
                 <h6>Street Address</h6>
-                <span>Hisar HR, India</span>
+                <span>Chandigarh Haryana, India (160017)</span>
               </li>
               <li>
                 <h6>Website URL</h6>
-                <span>www.ajcsclasses.com</span>
+                <span>www.ajcsclasses.vercel.app</span>
               </li>
             </ul>
           </div>
@@ -69,7 +69,7 @@ export const Contact = () => {
     </div>
     <div className="footer">
       <p>Copyright © 2024 AJCS Classes. All Rights Reserved. 
-          <br/>Design: <a href="#" target="_blank" title="AjCsClasses">AJCS Classes</a></p>
+          <br/>Design: <a href="ajcsclasses.vercel.app" target="_blank" title="AjCsClasses">AJCS Classes</a></p>
     </div>
   </section>
   )

@@ -14,19 +14,19 @@ export const Course = () => {
             <div class="owl-courses-item owl-carousel owl-loaded owl-drag">
               <div class="owl-stage-outer">
                 <div
-                  class="owl-stage d-flex"
+                  class="owl-stage d-flex justify-content-around flex-wrap"
                 >
                   <div
-                    class="owl-item cloned"
-                    style={{ width: "300px", marginRight: "30px" }}
+                    class="owl-item cloned mb-2"
+                    style={{ width: "300px"}}
                   >
                     <div class="item">
-                      <img src="assets/images/course-03.jpg" alt="" />
+                      <img src="assets/images/11.jpg" alt="" />
                       <div class="down-content">
-                        <h4>Web Design Templates at your finger tips</h4>
+                        <h4>Front End Development (ReactJs)</h4>
                         <div class="info">
                           <div class="row">
-                            <div class="col-8">
+                            <div class="col-5">
                               <ul>
                                 <li>
                                   <i class="fa fa-star"></i>
@@ -45,8 +45,8 @@ export const Course = () => {
                                 </li>
                               </ul>
                             </div>
-                            <div class="col-4">
-                              <span>$340</span>
+                            <div class="col-7">
+                              <span>Rs 6999/- Only</span>
                             </div>
                           </div>
                         </div>
@@ -55,16 +55,16 @@ export const Course = () => {
                   </div>
 
                   <div
-                    class="owl-item cloned"
-                    style={{ width: "300px", marginRight: "30px" }}
+                    class="owl-item cloned mb-2"
+                    style={{ width: "300px" }}
                   >
                     <div class="item">
-                      <img src="assets/images/course-03.jpg" alt="" />
+                      <img src="assets/images/12.jpg" alt="" />
                       <div class="down-content">
-                        <h4>Web Design Templates at your finger tips</h4>
+                        <h4>Backend Development (Node Js, Express and MongoDB)</h4>
                         <div class="info">
                           <div class="row">
-                            <div class="col-8">
+                            <div class="col-5">
                               <ul>
                                 <li>
                                   <i class="fa fa-star"></i>
@@ -83,8 +83,8 @@ export const Course = () => {
                                 </li>
                               </ul>
                             </div>
-                            <div class="col-4">
-                              <span>$340</span>
+                            <div class="col-7">
+                              <span>Rs 14999/- Only</span>
                             </div>
                           </div>
                         </div>
@@ -93,16 +93,16 @@ export const Course = () => {
                   </div>
 
                   <div
-                    class="owl-item cloned"
-                    style={{ width: "300px", marginRight: "30px" }}
+                    class="owl-item cloned mb-2"
+                    style={{ width: "300px" }}
                   >
                     <div class="item">
-                      <img src="assets/images/course-03.jpg" alt="" />
+                      <img src="assets/images/13.jpg" alt="" />
                       <div class="down-content">
-                        <h4>Web Design Templates at your finger tips</h4>
+                        <h4>Full Stack Development (MERN Stack)</h4>
                         <div class="info">
                           <div class="row">
-                            <div class="col-8">
+                            <div class="col-5">
                               <ul>
                                 <li>
                                   <i class="fa fa-star"></i>
@@ -121,8 +121,8 @@ export const Course = () => {
                                 </li>
                               </ul>
                             </div>
-                            <div class="col-4">
-                              <span>$340</span>
+                            <div class="col-7">
+                              <span>Rs. 19999/- Only</span>
                             </div>
                           </div>
                         </div>
@@ -131,16 +131,16 @@ export const Course = () => {
                   </div>
 
                   <div
-                    class="owl-item cloned"
-                    style={{ width: "300px", marginRight: "30px" }}
+                    class="owl-item cloned mb-2"
+                    style={{ width: "300px" }}
                   >
                     <div class="item">
-                      <img src="assets/images/course-03.jpg" alt="" />
+                      <img src="assets/images/14.jpg" alt="" />
                       <div class="down-content">
-                        <h4>Web Design Templates at your finger tips</h4>
+                        <h4>Work on Projects (Web Development MERN Stack)</h4>
                         <div class="info">
                           <div class="row">
-                            <div class="col-8">
+                            <div class="col-5">
                               <ul>
                                 <li>
                                   <i class="fa fa-star"></i>
@@ -159,8 +159,8 @@ export const Course = () => {
                                 </li>
                               </ul>
                             </div>
-                            <div class="col-4">
-                              <span>$340</span>
+                            <div class="col-7">
+                              <span>Rs 14999/- Only</span>
                             </div>
                           </div>
                         </div>
