@@ -94,9 +94,13 @@ const AdmissionForm = () => {
           className="w-full px-4 py-2 border rounded-md"
         >
           <option value="">Select a Course</option>
-          <option value="mern">MERN Stack Development</option>
+          <option value="full-stack">Full Stack Stack Development</option>
           <option value="frontend">Frontend Development</option>
           <option value="backend">Backend Development</option>
+          <option value="python">Python</option>
+          <option value="basic">Basic(C,C++, HTML, CSS, JS)</option>
+          <option value="advance">Advance</option>
+          <option value="internship">Internship</option>
         </select>
         <button
           type="submit"

@@ -1,6 +1,7 @@
 "use client";
 
-import { FaInstagram, FaLinkedin, FaYoutube } from "react-icons/fa";
+import Link from "next/link";
+import { FaInstagram, FaLinkedin, FaGoogle, FaFacebook } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -22,15 +23,34 @@ const Footer = () => {
         <div>
           <h3 className="text-lg font-semibold text-white mb-3">Follow Us</h3>
           <div className="flex space-x-4 text-xl">
-            <a href="#" className="hover:text-white transition">
+            <Link
+              href="https://www.instagram.com/ajcsclasses?igsh=MTlpemViNTNqZGczbQ%3D%3D&utm_source=qr"
+              target="_blank"
+              className="hover:text-white transition"
+            >
               <FaInstagram />
-            </a>
-            <a href="#" className="hover:text-white transition">
+            </Link>
+            <Link
+              href="https://www.linkedin.com/company/ajcsclasses/"
+              target="_blank"
+              className="hover:text-white transition"
+            >
               <FaLinkedin />
-            </a>
-            <a href="#" className="hover:text-white transition">
-              <FaYoutube />
-            </a>
+            </Link>
+            <Link
+              href="https://www.facebook.com/share/1ADu8fSsAB/?mibextid=wwXIfr"
+              target="_blank"
+              className="hover:text-white transition"
+            >
+              <FaFacebook />
+            </Link>
+            <Link
+              href="https://g.co/kgs/NkShs3f"
+              target="_blank"
+              className="hover:text-white transition"
+            >
+              <FaGoogle />
+            </Link>
           </div>
         </div>
 
@@ -49,34 +69,35 @@ const Footer = () => {
           <h3 className="text-lg font-semibold text-white mb-3">Quick Links</h3>
           <ul className="space-y-2">
             <li>
-              <a href="#" className="hover:text-white transition">
+              <Link href="/" className="hover:text-white transition">
                 Home
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" className="hover:text-white transition">
+              <Link href="/about" className="hover:text-white transition">
                 About Us
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" className="hover:text-white transition">
+              <Link href="/contact" className="hover:text-white transition">
                 Contact Us
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" className="hover:text-white transition">
+              <Link
+                href="/privacy-policy"
+                className="hover:text-white transition"
+              >
                 Privacy Policy
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" className="hover:text-white transition">
+              <Link
+                href="/terms-conditions"
+                className="hover:text-white transition"
+              >
                 Terms and Conditions
-              </a>
-            </li>
-            <li>
-              <a href="#" className="hover:text-white transition">
-                Apply Now
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
