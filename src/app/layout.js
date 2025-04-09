@@ -27,8 +27,33 @@ export default function RootLayout({ children }) {
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <Head>
-          <title>My page title</title>
+          <title>AJCS Classes</title>
+          <meta
+            name="AJCS Classes"
+            content="AJCSClasses is a dedicated online learning platform that offers expert-led training in MERN Stack development, C, C++, HTML, CSS, and JavaScript. Designed for beginners to advanced learners, we focus on practical, real-world skills to help students become confident full-stack developers."
+          />
+          <link rel="icon" href="/favicon.ico" />
+
+          {/* Open Graph */}
+          <meta property="og:title" content="AJCS Classes" />
+          <meta
+            property="og:description"
+            content="AJCSClasses is a dedicated online learning platform that offers expert-led training in MERN Stack development, C, C++, HTML, CSS, and JavaScript. Designed for beginners to advanced learners, we focus on practical, real-world skills to help students become confident full-stack developers."
+          />
+          <meta property="og:image" content="/AJCSClasses.jpeg" />
+          <meta property="og:url" content="https://ajcsclasses.com" />
+          <meta property="og:type" content="website" />
+
+          {/* Twitter Card */}
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta property="og:title" content="AJCS Classes" />
+          <meta
+            name="twitter:description"
+            content="AJCSClasses is a dedicated online learning platform that offers expert-led training in MERN Stack development, C, C++, HTML, CSS, and JavaScript. Designed for beginners to advanced learners, we focus on practical, real-world skills to help students become confident full-stack developers."
+          />
+          <meta name="twitter:image" content="/AJCSClasses.jpeg" />
         </Head>
+
         <Toaster position="top-center" />
         <Navbar />
         {children}
