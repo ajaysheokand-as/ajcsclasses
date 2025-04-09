@@ -22,13 +22,13 @@ const Contact = () => {
           </p>
           <ul className="text-gray-700 space-y-3">
             <li>
-              <strong>Address:</strong> 123 AJCS Lane, Learning City, India
+              <strong>Address:</strong> Red Square Hisar, Haryana, India
             </li>
             <li>
               <strong>Email:</strong> contact@ajcsclasses.com
             </li>
             <li>
-              <strong>Phone:</strong> +91 98765 43210
+              <strong>Phone:</strong> +91 98969-96916
             </li>
             <li>
               <strong>Office Hours:</strong> Mon - Sat, 9am - 6pm
